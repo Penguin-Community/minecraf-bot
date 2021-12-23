@@ -1,0 +1,18 @@
+{
+  "name": "minecraf-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft Bot To Prevent Penguin SMP From Going Offline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "meesam4687",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^16.13.0"
+  },
+  "dependencies": {
+    "mineflayer": "^3.11.2"
+  }
+}

@@ -25,8 +25,9 @@ function start(bot){
   });
   bot.on("kicked", console.log);
   bot.on("error", console.log);
-  bot.on("end", () => {
+  bot.on("end", async () => {
     console.log("Bot Disconnected.")
+    wait(3000)
     bot = mineflayer.createBot(options);
     start(bot);
   });
